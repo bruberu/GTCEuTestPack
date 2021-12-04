@@ -37,7 +37,6 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: true
           title: ${{ steps.vars.outputs.sha_short }}
-
           files: |
             buildOut/client.zip
             buildOut/server.zip
