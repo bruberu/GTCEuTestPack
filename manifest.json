@@ -1,0 +1,146 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2855",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "GTCEuTestPack",
+  "version": "0.1.5",
+  "author": "bruberu",
+  "externalDeps":[
+        {
+            "url" : "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/omni-fixes-v47/appliedenergistics2-rv6-stable-7.omni-fixes-v47b.jar",
+            "hash" : "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "name": "Applied Energistics 2 Trousers Edition"
+        },
+        {
+            "url" : "https://github.com/GregTechCEu/GregTech/releases/download/latest/gregtech-1.12.2-2.0.0-alpha.jar",
+	    "hash" : "a4e69b9ffcc35102319d9f63acc74bf709b16afc24145dde56d1b438fdda9988",
+            "name": "GregTech Community Edition Unofficial"
+        }
+    ],
+  "files": [
+    {
+      "projectID": 317780,
+      "fileID": 3541566,
+      "required": true
+    },    
+    {
+      "projectID": 263420,
+      "fileID": 3541555,
+      "required": true
+    },    
+    {
+      "projectID": 235279,
+      "fileID": 2915375,
+      "required": true
+    },    
+    {
+      "projectID": 267602,
+      "fileID": 2915363,
+      "required": true
+    },    
+    {
+      "projectID": 238222,
+      "fileID": 3040523,
+      "required": true
+    },    
+    {
+      "projectID": 242223,
+      "fileID": 3524685,
+      "required": true
+    },    
+    {
+      "projectID": 230497,
+      "fileID": 2450900,
+      "required": true
+    },    
+    {
+      "projectID": 223852,
+      "fileID": 2952606,
+      "required": true
+    },    
+    {
+      "projectID": 229876,
+      "fileID": 2483393,
+      "required": true
+    },    
+    {
+      "projectID": 288885,
+      "fileID": 2838777,
+      "required": true
+    },    
+    {
+      "projectID": 299540,
+      "fileID": 2706111,
+      "required": true
+    },    
+    {
+      "projectID": 278494,
+      "fileID": 3327893,
+      "required": true
+    },    
+    {
+      "projectID": 245211,
+      "fileID": 2667280,
+      "required": true
+    },    
+    {
+      "projectID": 243478,
+      "fileID": 2745657,
+      "required": true
+    },    
+    {
+      "projectID": 283525,
+      "fileID": 2947622,
+      "required": true
+    },    
+    {
+      "projectID": 238747,
+      "fileID": 2739582,
+      "required": true
+    },    
+    {
+      "projectID": 224728,
+      "fileID": 2975510,
+      "required": true
+    },    
+    {
+      "projectID": 283525,
+      "fileID": 2975510,
+      "required": true
+    },    
+    {
+      "projectID": 361579,
+      "fileID": 3542217,
+      "required": true
+    },    
+    {
+      "projectID": 318255,
+      "fileID": 2747710,
+      "required": true
+    },    
+    {
+      "projectID": 242818,
+      "fileID": 2779848,
+      "required": true
+    },  
+    {
+      "projectID": 285612,
+      "fileID": 3133651,
+      "required": true
+    },
+    {
+      "projectID": 225658,
+      "fileID": 2586524,
+      "required": true
+    }   
+   ],
+  "overrides": "overrides"
+}
