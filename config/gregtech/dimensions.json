@@ -11,14 +11,6 @@
     {
       "dimID": -1,
       "dimName": "Nether"
-    },
-	{
-      "dimID": 8,
-      "dimName": "Luna"
-    },
-    {
-      "dimID": 10,
-      "dimName": "Beneath"
     }
   ]
 }

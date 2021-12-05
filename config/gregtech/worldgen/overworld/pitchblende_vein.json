@@ -1,17 +1,17 @@
 {
-  "weight": 40,
+  "weight": 45,
   "density": 0.5,
   "max_height": 40,
-  "min_height": 15,
+  "min_height": 12,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "soapstone"
+    "material": "pitchblende"
   },
   "generator": {
     "type": "ellipsoid",
     "radius": [
-      14,
-      16
+      13,
+      13
     ]
   },
   "filler": {
@@ -20,20 +20,16 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 25,
-          "value": "ore:soapstone"
+          "weight": 50,
+          "value": "ore:pitchblende"
         },
         {
-          "weight": 25,
-          "value": "ore:talc"
+          "weight": 40,
+          "value": "ore:uraninite"
         },
         {
-          "weight": 25,
-          "value": "ore:glauconite"
-        },
-        {
-          "weight": 25,
-          "value": "ore:pentlandite"
+          "weight": 10,
+          "value": "ore:uranium"
         }
       ]
     }
