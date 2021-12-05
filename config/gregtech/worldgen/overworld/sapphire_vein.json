@@ -1,17 +1,17 @@
 {
-  "weight": 40,
-  "density": 0.5,
+  "weight": 60,
+  "density": 0.3,
   "max_height": 40,
   "min_height": 15,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "soapstone"
+    "material": "almandine"
   },
   "generator": {
     "type": "ellipsoid",
     "radius": [
-      14,
-      16
+      16,
+      17
     ]
   },
   "filler": {
@@ -20,20 +20,20 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 25,
-          "value": "ore:soapstone"
+          "weight": 30,
+          "value": "ore:almandine"
         },
         {
-          "weight": 25,
-          "value": "ore:talc"
+          "weight": 30,
+          "value": "ore:pyrope"
         },
         {
-          "weight": 25,
-          "value": "ore:glauconite"
+          "weight": 30,
+          "value": "ore:sapphire"
         },
         {
-          "weight": 25,
-          "value": "ore:pentlandite"
+          "weight": 10,
+          "value": "ore:green_sapphire"
         }
       ]
     }
