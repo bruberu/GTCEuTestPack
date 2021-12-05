@@ -1,5 +1,5 @@
 {
-  "weight": 90,
+  "weight": 120,
   "priority": 100,
   "density": 1.0,
   "min_height": 10,
@@ -19,8 +19,8 @@
         {
           "weight": 100,
           "value": {
-            "block": "gregtech:granite",
-            "variant": "red_granite",
+            "block": "gregtech:mineral",
+            "variant": "marble",
             "chiseling_variant": "normal"
           }
         }
