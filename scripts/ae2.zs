@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 // Quartz Glass
 recipes.removeByRecipeName("appliedenergistics2:decorative/quartz_glass");
 alloy_smelter.recipeBuilder()
-    .inputs(<ore:blockGlass> * 4)
+    .inputs(<ore:dustCertusQuartz> * 4)
     .inputs(<ore:dustQuartz> * 5)
     .outputs(<appliedenergistics2:quartz_glass> * 4)
     .duration(100)
