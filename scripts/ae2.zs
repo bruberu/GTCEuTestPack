@@ -675,7 +675,7 @@ circuit_assembler.recipeBuilder()
 // 1k Storage
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_components_cell_1k_part");
 assembler.recipeBuilder()
-    .inputs(<metaitem:plate.simple_system_on_chip>)
+    .inputs(<metaitem:plate.central_processing_unit>)
     .inputs(<ore:plateCertusQuartz>)
     .inputs(<ore:circuitBasic>)
     .outputs(<appliedenergistics2:material:35>)
@@ -719,7 +719,7 @@ assembler.recipeBuilder()
 // 1k Fluid Storage
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_1k_part");
 assembler.recipeBuilder()
-    .inputs(<metaitem:plate.simple_system_on_chip>)
+    .inputs(<metaitem:plate.central_processing_unit>)
     .inputs(<ore:plateLapis>)
     .inputs(<ore:circuitBasic>)
     .outputs(<appliedenergistics2:material:54>)
@@ -731,7 +731,7 @@ assembler.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_4k_part");
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.random_access_memory>)
-    .inputs(<appliedenergistics2:material:35> * 3)
+    .inputs(<appliedenergistics2:material:54> * 3)
     .inputs(<ore:circuitGood>)
     .outputs(<appliedenergistics2:material:55>)
     .duration(200)
